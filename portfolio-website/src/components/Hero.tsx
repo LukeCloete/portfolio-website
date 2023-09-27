@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -25,8 +26,8 @@ export default function Hero() {
               Full-Stack React Developer
             </h1>
             <p className="text-lg tracking-tighter">
-              Hi, I'm Luke Cloete, a passionate Full-Stack React Developer based
-              in Windhoek, Namibia.
+              Hi, I&apos;m Luke Cloete, a passionate Full-Stack React Developer
+              based in Windhoek, Namibia.
             </p>
             {/* Social links */}
             <div className="flex gap-2">
@@ -52,39 +53,47 @@ export default function Hero() {
           <div className="w-1/5">My Tech Stack |</div>
           <div className="flex items-center gap-8 w-full h-full">
             <div className="flex gap-2">
-              <img
+              <Image
+                alt="HTML5"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=html"
               />
-              <img
+              <Image
+                alt="CSS3"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=css"
               />
             </div>
             <div className="flex gap-2">
-              <img
+              <Image
+                alt="Java"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=java"
               />
-              <img
+              <Image
+                alt="Javascript"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=js"
               />
-              <img
+              <Image
+                alt="Typescript"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=typescript"
               />
             </div>
             <div className="flex gap-2">
-              <img
+              <Image
+                alt="React"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=react"
               />
-              <img
+              <Image
+                alt="Next.js"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=nextjs"
               />
-              <img
+              <Image
+                alt="Tailwind CSS"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=tailwindcss"
               />
