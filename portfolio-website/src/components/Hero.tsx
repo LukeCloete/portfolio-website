@@ -54,11 +54,15 @@ export default function Hero() {
           <div className="flex items-center gap-8 w-full h-full">
             <div className="flex gap-2">
               <Image
+                width="70"
+                height="70"
                 alt="HTML5"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=html"
               />
               <Image
+                height="70"
+                width="70"
                 alt="CSS3"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=css"
@@ -66,16 +70,22 @@ export default function Hero() {
             </div>
             <div className="flex gap-2">
               <Image
+                height="70"
+                width="70"
                 alt="Java"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=java"
               />
               <Image
+                height="70"
+                width="70"
                 alt="Javascript"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=js"
               />
               <Image
+                height="70"
+                width="70"
                 alt="Typescript"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=typescript"
@@ -83,16 +93,22 @@ export default function Hero() {
             </div>
             <div className="flex gap-2">
               <Image
+                height="70"
+                width="70"
                 alt="React"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=react"
               />
               <Image
+                height="70"
+                width="70"
                 alt="Next.js"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=nextjs"
               />
               <Image
+                height="70"
+                width="70"
                 alt="Tailwind CSS"
                 className="hover:scale-125 ease-in-out transition duration-300"
                 src="https://skillicons.dev/icons?i=tailwindcss"
