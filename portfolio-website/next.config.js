@@ -7,11 +7,11 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: '**',
+        hostname: '',
+        pathname: ''
       },
     ],
   },
-}
+};
 
 module.exports = nextConfig

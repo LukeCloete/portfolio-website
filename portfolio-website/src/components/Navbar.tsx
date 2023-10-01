@@ -85,7 +85,10 @@ function Nav() {
 
               {/* Social icons */}
               <div className="flex text-lg gap-4">
-                <Link href="https://www.instagram.com/" target="blank_">
+                <Link
+                  href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
+                  target="blank_"
+                >
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="text-blue-500 hover:text-black"

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./hero.module.css";
 import Image from "next/image";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -9,7 +10,7 @@ import {
   faCss3,
   faJs,
   faReact,
-  faTypo3,
+  faJava,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
@@ -29,20 +30,30 @@ export default function Hero() {
               Hi, I&apos;m Luke Cloete, a passionate Full-Stack React Developer
               based in Windhoek, Namibia.
             </p>
-            {/* Social links */}
-            <div className="flex gap-2">
-              <Link href="https://www.instagram.com/" target="blank_">
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="text-black hover:text-blue-500 text-3xl"
-                />
-              </Link>
-              <Link href="https://github.com/LukeCloete" target="blank_">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="text-black hover:text-blue-500 text-3xl"
-                />
-              </Link>
+
+            <div className="flex gap-8">
+              <div className="flex gap-2">
+                <Link
+                  href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
+                  target="blank_"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-black hover:text-blue-500 text-3xl"
+                  />
+                </Link>
+                <Link href="https://github.com/LukeCloete" target="blank_">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="text-black hover:text-blue-500 text-3xl"
+                  />
+                </Link>
+              </div>
+              <div className="flex items-center justify-center">
+                <button className=" p-2 rounded-sm transition font-bold ease-in-out duration-300 bg-black text-white hover:bg-transparent hover:border-black hover:border hover:text-black">
+                  Download my CV
+                </button>
+              </div>
             </div>
           </div>
           {/* Picture */}
@@ -52,68 +63,70 @@ export default function Hero() {
         <div className="h-[5vh] flex items-center justify-center w-3/4 flex-row">
           <div className="w-1/5">My Tech Stack |</div>
           <div className="flex items-center gap-8 w-full h-full">
-            <div className="flex gap-2">
-              <Image
-                width="70"
-                height="70"
-                alt="HTML5"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=html"
-              />
-              <Image
-                height="70"
-                width="70"
-                alt="CSS3"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=css"
-              />
-            </div>
-            <div className="flex gap-2">
-              <Image
-                height="70"
-                width="70"
-                alt="Java"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=java"
-              />
-              <Image
-                height="70"
-                width="70"
-                alt="Javascript"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=js"
-              />
-              <Image
-                height="70"
-                width="70"
-                alt="Typescript"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=typescript"
-              />
-            </div>
-            <div className="flex gap-2">
-              <Image
-                height="70"
-                width="70"
-                alt="React"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=react"
-              />
-              <Image
-                height="70"
-                width="70"
-                alt="Next.js"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=nextjs"
-              />
-              <Image
-                height="70"
-                width="70"
-                alt="Tailwind CSS"
-                className="hover:scale-125 ease-in-out transition duration-300"
-                src="https://skillicons.dev/icons?i=tailwindcss"
-              />
-            </div>
+            <ul className="flex items-center justify-center gap-6">
+              <li className="flex items-center justify-center gap-2">
+                <FontAwesomeIcon
+                  icon={faHtml5}
+                  width="28"
+                  height="32"
+                  size="2x"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                />
+                <FontAwesomeIcon
+                  icon={faCss3}
+                  width="32"
+                  height="28"
+                  size="2x"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                />
+              </li>
+              <li className="flex items-center justify-center gap-2">
+                <FontAwesomeIcon
+                  icon={faJava}
+                  width="28"
+                  height="32"
+                  size="2x"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                />
+                <FontAwesomeIcon
+                  icon={faJs}
+                  width="28"
+                  height="32"
+                  size="2x"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                />
+                <Image
+                  height="32"
+                  width="28"
+                  alt="Typescript"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                  src="./typescript.svg"
+                />
+              </li>
+              <li className="flex items-center justify-center gap-2">
+                <FontAwesomeIcon
+                  icon={faReact}
+                  width="28"
+                  height="32"
+                  size="2x"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                />
+                <Image
+                  height="32"
+                  width="28"
+                  alt="Next.js"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                  src="./next-js.svg"
+                />
+                <Image
+                  height="32"
+                  width="28"
+                  alt="Tailwind CSS"
+                  className="hover:scale-125 ease-in-out transition duration-300"
+                  src="./tailwindcss.svg"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
