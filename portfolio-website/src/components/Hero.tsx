@@ -27,8 +27,8 @@ export default function Hero() {
               Front-end Software Engineer.
             </h1>
             <p className="text-lg tracking-relaxed">
-              Hi, I&apos;m Luke Cloete, a passionate Full-Stack software
-              engineer based in Windhoek, Namibia.
+              Hi, I&apos;m Luke Cloete, a passionate Front-End Software Engineer
+              based in Windhoek, Namibia.
             </p>
 
             <div className="flex gap-8">

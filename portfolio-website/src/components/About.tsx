@@ -1,16 +1,25 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function About() {
   return (
     <>
       {/* About Section */}
-      <section id="about" className="w-full h-[80vh] bg-white">
+      <section id="about" className="w-full h-[85vh] bg-white">
         {/* Container */}
-        <div className="h-full w-2/3 mx-auto flex gap-2 items-center justify-center p-16">
+        <div className="h-full w-[70%] mx-auto flex gap-12 items-center justify-center p-16">
           {/* Content */}
-          <div className="w-1/2">Picture</div>
-          <div className="flex flex-col items-start justify-center gap-4 w-1/2">
+          <div className="w-1/2 overflow-hidden relative max-w-[600px] h-5/6">
+            <Image
+              fill={true}
+              objectFit="cover"
+              alt="Desk and monitor"
+              className="rounded-2xl"
+              src="/software-developer-namibia.jpg"
+            />
+          </div>
+          <div className="flex flex-col items-start justify-center gap-4 h-full w-1/2">
             <h2 className="text-primary font-semibold text-lg">ABOUT ME</h2>
             <h3 className="font-bold text-2xl">
               A dedicated Junior developer based in Windhoek Namibia
