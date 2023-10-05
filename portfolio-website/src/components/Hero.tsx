@@ -22,13 +22,13 @@ export default function Hero() {
         {/* Info and Picture */}
         <div className="w-3/4 flex gap-8 h-3/4">
           {/* Info */}
-          <div className="flex w-full h-full flex-col items-start gap-6 justify-center">
-            <h1 className="font-bold text-[70px] leading-none">
-              Full-Stack React Developer
+          <div className="flex w-full h-full flex-col items-start gap-4 justify-center">
+            <h1 className=" font-bold h-1/3 leading-tight text-[55px] tracking-tight w-full">
+              Front-end Software Engineer.
             </h1>
-            <p className="text-lg tracking-tighter">
-              Hi, I&apos;m Luke Cloete, a passionate Full-Stack React Developer
-              based in Windhoek, Namibia.
+            <p className="text-lg tracking-relaxed">
+              Hi, I&apos;m Luke Cloete, a passionate Full-Stack software
+              engineer based in Windhoek, Namibia.
             </p>
 
             <div className="flex gap-8">
@@ -50,7 +50,7 @@ export default function Hero() {
                 </Link>
               </div>
               <div className="flex items-center justify-center">
-                <button className=" p-2 rounded-sm transition font-bold ease-in-out duration-300 bg-black text-white hover:bg-transparent hover:border-black hover:border hover:text-black">
+                <button className=" text-base p-2 rounded-sm transition font-semibold ease-in-out duration-300 bg-black text-white hover:bg-transparent hover:border-black hover:border hover:text-black">
                   Download my CV
                 </button>
               </div>
@@ -61,9 +61,9 @@ export default function Hero() {
         </div>
         {/* Tech Stack */}
         <div className="h-[5vh] flex items-center justify-center w-3/4 flex-row">
-          <div className="w-1/5">My Tech Stack |</div>
-          <div className="flex items-center gap-8 w-full h-full">
-            <ul className="flex items-center justify-center gap-6">
+          <div className="w-1/6 text-lg opacity-80">My Tech Stack |</div>
+          <div className="flex items-center w-full h-full">
+            <ul className="flex items-center justify-center gap-4">
               <li className="flex items-center justify-center gap-2">
                 <FontAwesomeIcon
                   icon={faHtml5}

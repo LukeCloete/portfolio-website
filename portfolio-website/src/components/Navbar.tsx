@@ -47,7 +47,7 @@ function Nav() {
         {/* Container */}
         <div className="flex justify-between items-center top-0 h-full w-full px-12">
           {/* Logo */}
-          <div className="hover:text-blue-500">
+          <div className="hover:text-blue-500 text-xl font-semibold">
             <Link href="/#home">Luke.dev</Link>
           </div>
 
@@ -55,7 +55,7 @@ function Nav() {
           <div className="flex items-center gap-6">
             {/* Links */}
             <div className="flex gap-8 justify-center items-center">
-              <ul className="flex gap-4 justify-center items-center">
+              <ul className="flex gap-4 font-semibold opacity-80 justify-center items-center">
                 <li className="hover:text-blue-500">
                   <Link href="/#home">Home</Link>
                 </li>
@@ -76,7 +76,7 @@ function Nav() {
               {/* Contact Info */}
               <button>
                 <Link
-                  href="tel:+264-81-638-9757"
+                  href=""
                   className=" before:ease relative h-12 w-40 overflow-hidden shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-blue-500 hover:before:-translate-x-40 rounded-sm p-3 px-5 text-sm font-bold bg-blue-500 text-white"
                 >
                   Download my CV
