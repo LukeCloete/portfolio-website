@@ -21,18 +21,28 @@ export default function About() {
           </div>
           <div className="flex flex-col items-start justify-center gap-4 h-full w-1/2">
             <h2 className="text-primary font-semibold text-lg">ABOUT ME</h2>
-            <h3 className="font-bold text-2xl">
-              A dedicated Junior developer based in Windhoek Namibia
+            <h3 className="font-bold flex text-2xl items-end">
+              A dedicated Junior developer based in Windhoek, Namibia
+              <div className="relative overflow-hidden w-[7%] h-[30px] flex-shrink-0 mr-8">
+                <Image
+                  fill={true}
+                  objectFit="contain"
+                  alt="Namibian flag"
+                  src="/Flag_of_Namibia.svg"
+                  className="rounded-lg"
+                />
+              </div>
             </h3>
+
             <p className="text-lg text-slate-500">
               As a Junior Developer, I possess an good background of skills in
               HTML, CSS, Java, JavaScript, Typescript, React and Tailwind.
-              Currently, I excel in designing and maintaining responsive
-              websites that offer a smooth user experience. My expertise lies in
-              utilizing cutting-edge development tools and techniques to craft
-              engaging interfaces through writing clean and optimized code. I am
-              always looking to expand my skillset and close the gap between my
-              front-end and back-end development.
+              Currently, I am refining my craft in designing and maintaining
+              responsive websites that offer a smooth user experience. My
+              expertise lies in utilizing cutting-edge development tools and
+              techniques to craft engaging interfaces through writing clean and
+              optimized code. I am always looking to expand my skillset and
+              close the gap between my front-end and back-end development.
             </p>
           </div>
         </div>

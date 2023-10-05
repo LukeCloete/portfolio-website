@@ -32,7 +32,7 @@ export default function Hero() {
             </p>
 
             <div className="flex gap-8">
-              <div className="flex gap-2">
+              <div className="flex gap-2 items-end">
                 <Link
                   href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
                   target="blank_"
