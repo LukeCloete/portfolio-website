@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
@@ -7,15 +8,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Luke Cloete - Full-Stack Web Developer - Portfolio Website
-        </title>
+        <title>Luke Cloete | Front-end Developer</title>
       </Head>
 
       <main>
         <Navbar />
         <Hero />
         <About />
+        <Contact />
       </main>
     </>
   );
