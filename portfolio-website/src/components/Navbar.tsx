@@ -15,7 +15,7 @@ function Nav() {
     } else {
       setIsMinimal(true);
     }
-  }, 15);
+  }, 25);
   useMotionValueEvent(scrollY, "change", debouncedCallback);
   return (
     <div className="flex items-center fixed h-[15vh] w-full justify-center">
