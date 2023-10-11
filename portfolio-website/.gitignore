@@ -30,6 +30,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Local Netlify folder
+.netlify
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
