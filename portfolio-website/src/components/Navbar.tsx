@@ -18,7 +18,7 @@ function Nav() {
   }, 25);
   useMotionValueEvent(scrollY, "change", debouncedCallback);
   return (
-    <div className="flex items-center fixed h-[15vh] w-full justify-center">
+    <div className="flex z-10 items-center fixed h-[15vh] w-full justify-center">
       <motion.nav
         variants={{
           Minimal: {
