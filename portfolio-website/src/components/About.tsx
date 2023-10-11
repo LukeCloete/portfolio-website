@@ -8,12 +8,11 @@ export default function About() {
       {/* About Section */}
       <section id="about" className="w-full h-[85vh] bg-white">
         {/* Container */}
-        <div className="h-full w-[70%] mx-auto flex gap-12 items-center justify-center p-16">
+        <div className="h-full w-[70%] mx-auto flex items-center justify-center p-4 py-32 gap-16">
           {/* Content */}
-          <div className="w-1/2 overflow-hidden relative max-w-[600px] h-5/6">
+          <div className="w-1/2 shadow-xl rounded-2xl overflow-hidden relative max-w-[600px] h-full">
             <Image
               fill={true}
-              objectFit="cover"
               alt="Desk and monitor"
               className="rounded-2xl"
               src="/software-developer-namibia.jpg"
@@ -21,21 +20,14 @@ export default function About() {
           </div>
           <div className="flex flex-col items-start justify-center gap-4 h-full w-1/2">
             <h2 className="text-primary font-semibold text-lg">ABOUT ME</h2>
-            <h3 className="font-bold flex text-2xl items-end">
-              A dedicated Junior developer based in Windhoek, Namibia
-              <div className="relative overflow-hidden w-[7%] h-[30px] flex-shrink-0 mr-8">
-                <Image
-                  fill={true}
-                  objectFit="contain"
-                  alt="Namibian flag"
-                  src="/Flag_of_Namibia.svg"
-                  className="rounded-lg"
-                />
-              </div>
+            <h3 className="font-bold flex text-2xl w-full items-end">
+              A dedicated Junior developer
+              <br />
+              based in Windhoek, Namibia📍
             </h3>
 
             <p className="text-lg text-slate-500">
-              As a Junior Developer, I possess an good background of skills in
+              As a Junior Developer, I possess a good background of skills in
               HTML, CSS, Java, JavaScript, Typescript, React and Tailwind.
               Currently, I am refining my craft in designing and maintaining
               responsive websites that offer a smooth user experience. My
