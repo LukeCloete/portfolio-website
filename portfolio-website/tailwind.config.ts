@@ -19,7 +19,20 @@ const config: Config = {
       fontFamily: {
         futura: [`var(--font-futura)`],
       
+      },
+      boxShadow: {
+        'ring': '0 0 12px rgba(100, 100, 111, 0.3)',
+      },
+      animation: {
+        'wrench': 'wiggle 1s linear infinite',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-5deg)' },
+          '50%': { transform: 'rotate(5deg)' },
+        }
       }
+
     },
   },
   plugins: [],
