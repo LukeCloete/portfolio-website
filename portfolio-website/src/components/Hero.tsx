@@ -23,11 +23,11 @@ export default function Hero() {
           {/* Info and Picture */}
           <div className="w-[70%] flex gap-8 h-3/4">
             {/* Info */}
-            <div className="flex w-full h-full flex-col items-start gap-4 justify-center">
+            <div className="flex w-full h-full flex-col items-start justify-center">
               <h1 className=" font-bold h-1/3 leading-tight text-[55px] tracking-tight w-full">
                 The Front-end Engineer.
               </h1>
-              <p className="text-lg tracking-relaxed">
+              <p className="text-lg tracking-relaxed mb-8">
                 Hi, I&apos;m Luke Cloete, a passionate Front-end Software
                 Developer based in Windhoek, Namibia.
               </p>
@@ -37,13 +37,18 @@ export default function Hero() {
                   <Link
                     href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
                     target="blank_"
+                    rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon
                       icon={faLinkedin}
                       className="text-black hover:text-blue-500 text-3xl"
                     />
                   </Link>
-                  <Link href="https://github.com/LukeCloete" target="blank_">
+                  <Link
+                    href="https://github.com/LukeCloete"
+                    target="blank_"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon
                       icon={faGithub}
                       className="text-black hover:text-blue-500 text-3xl"

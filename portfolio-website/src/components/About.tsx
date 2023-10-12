@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
@@ -19,12 +18,15 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col items-start justify-center gap-4 h-full w-1/2">
-            <h2 className="text-primary font-semibold text-lg">ABOUT ME</h2>
-            <h3 className="font-bold flex text-2xl w-full items-end">
-              A dedicated Junior developer
-              <br />
-              based in Windhoek, Namibia📍
-            </h3>
+            <h2>ABOUT ME</h2>
+            <div className="flex items-end justify-center">
+              <h3 className="font-bold flex text-2xl w-full items-end">
+                A dedicated Junior developer
+                <br />
+                based in Windhoek, Namibia
+              </h3>
+              <p className="inline-block text-2xl animate-bounce">📍</p>
+            </div>
 
             <p className="text-lg text-slate-500">
               As a Junior Developer, I possess a good background of skills in

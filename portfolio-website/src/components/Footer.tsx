@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <section className="w-full h-[5vh]">
-        <div className="flex border-t-2 border-slate-400 h-full w-[70%] mx-auto justify-between items-center">
+        <div className="flex border-t-2 border-slate-400 h-full w-[70%] mx-auto justify-between items-center pt-4">
           <h3>© 2023 Luke.dev</h3>
           <div className="flex gap-2 items-end">
             <Link

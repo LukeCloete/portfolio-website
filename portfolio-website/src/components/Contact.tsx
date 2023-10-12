@@ -16,10 +16,15 @@ export default function Contact() {
         <div className="h-full w-[70%] mx-auto flex flex-col items-start justify-start p-4 py-32">
           {/* Content */}
           <div className="flex flex-col items-start justify-start gap-4 h-1/2 w-1/2">
-            <h2 className="text-primary font-semibold text-lg">CONTACT</h2>
-            <h3 className="font-bold flex text-2xl w-full items-end">
-              Let's build together!
-            </h3>
+            <h2>CONTACT</h2>
+            <div className="flex items-center justify-start gap-2">
+              <h3 className="font-bold flex text-2xl w-full items-end">
+                Let's build together!
+              </h3>
+              <p className=" inline-block text-2xl color-black animate-pulse">
+                🤝
+              </p>
+            </div>
           </div>
           <div className="flex w-full h-full gap-4">
             <div className="flex w-1/3 h-full gap-8">
@@ -27,7 +32,7 @@ export default function Contact() {
                 <FontAwesomeIcon
                   icon={faMapLocationDot}
                   size="2x"
-                  className="rounded-full p-4 bg-gradient-to-b from-white to-[#7ed2da]"
+                  className="rounded-full p-4 bg-black text-white"
                 />
               </div>
               <div className="flex flex-col items-start justify-center gap-2">
@@ -47,7 +52,7 @@ export default function Contact() {
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   size="2x"
-                  className="rounded-full p-4 bg-gradient-to-b from-white to-[#7ed2da]"
+                  className="rounded-full p-4 bg-black text-white"
                 />
               </div>
               <div className="flex flex-col items-start justify-center gap-2">
