@@ -63,7 +63,7 @@ function Nav() {
                   <Link href="#about">About</Link>
                 </li>
                 <li className="hover:text-blue-500">
-                  <Link href="/menu">Portfolio</Link>
+                  <Link href="#portfolio">Portfolio</Link>
                 </li>
                 <li className="hover:text-blue-500">
                   <Link href="#contact">Contact</Link>
