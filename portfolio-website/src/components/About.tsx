@@ -25,7 +25,7 @@ export default function About() {
                 <br />
                 based in Windhoek, Namibia
               </h3>
-              <p className="inline-block text-2xl animate-bounce">📍</p>
+              <span className=" text-2xl animate-bounce">📍</span>
             </div>
 
             <p className="text-lg text-slate-500">
