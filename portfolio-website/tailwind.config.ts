@@ -31,6 +31,9 @@ const config: Config = {
           '0%, 100%': { transform: 'rotate(-5deg)' },
           '50%': { transform: 'rotate(5deg)' },
         }
+      },
+      transitionDuration: {
+        '10s' : '10000ms',
       }
 
     },
