@@ -1,10 +1,18 @@
 
   .section {
     width: full;
-    height: 100vh;
+    height: 150vh;
     padding-top: 4rem;
+    border: 2px solid red;
   }
 
+  @media (min-width: 901px) {
+    .section {
+      height: 100vh;
+    }
+  }
+
+ 
   .section::before,.section::after {
     content: '';
     position: absolute;
@@ -22,12 +30,24 @@
     top: calc(50vh - 50vw/2);
     left: calc(50vw );
   }
+
+  @media (min-width: 900px) {
+    .section::after {
+      background: var(--secondary-glow);
+      border-radius: 50%;
+      width: 500px;
+      height: 700px;
+      filter:blur(90px);
+      top: calc(50vh - 50vw/2);
+      left: calc(50vw - 50vw/2);
+    }
+  }
   
   .section::after {
     background: var(--secondary-glow);
     border-radius: 50%;
-    width: 500px;
-    height: 700px;
+    width: 50vw;
+    height: 70vh;
     filter:blur(90px);
     top: calc(50vh - 50vw/2);
     left: calc(50vw - 50vw/2);
