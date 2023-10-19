@@ -1,34 +1,34 @@
 import React from "react";
 import Image from "next/image";
+import softwareDeveloper from "../../public/software-developer-namibia.jpg";
 
 export default function About() {
   return (
     <>
       {/* About Section */}
-      <section id="about" className="w-full h-[85vh] bg-white">
+      <section id="about" className="w-full h-fit bg-white">
         {/* Container */}
-        <div className="h-full w-[70%] mx-auto flex items-center justify-center p-4 py-32 gap-16">
+        <div className="h-full w-[80%] md:w-[70%] mx-auto flex  lg:flex-row blue flex-col items-center justify-center p-4 py-16 md:py-32 gap-16">
           {/* Content */}
-          <div className="w-1/2 shadow-xl rounded-2xl overflow-hidden relative max-w-[600px] h-full">
+          <div className="w-1/2 lg:w-1/2 shadow-[0px_0px_12px_rgba(59,130,246,0.3)] rounded-2xl relative max-w-[600px] h-fit ">
             <Image
-              fill={true}
               alt="Desk and monitor"
               className="rounded-2xl"
-              src="/software-developer-namibia.jpg"
+              src={softwareDeveloper}
             />
           </div>
-          <div className="flex flex-col items-start justify-center gap-4 h-full w-1/2">
+          <div className="flex flex-col items-start justify-center gap-4 h-fit w-full lg:w-1/2">
             <h2>ABOUT ME</h2>
-            <div className="flex items-end justify-center">
-              <h3 className="font-bold flex text-2xl w-full items-end">
+            <div className="flex flex-col-reverse lg:flex-row items-center lg:items-end justify-center">
+              <h3 className="font-bold flex text-xl text md:text-2xl w-full items-end">
                 A dedicated Junior developer
-                <br />
+                <br className="hidden  sm:block" />
                 based in Windhoek, Namibia
               </h3>
               <span className=" text-2xl animate-bounce">📍</span>
             </div>
 
-            <p className="text-lg text-slate-500">
+            <p className=" text-base md:text-lg text-slate-500">
               As a Junior Developer, I possess a good background of skills in
               HTML, CSS, Java, JavaScript, Typescript, React and Tailwind.
               Currently, I am refining my craft in designing and maintaining
