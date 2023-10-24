@@ -8,9 +8,9 @@ export default function About() {
       {/* About Section */}
       <section id="about" className="w-full h-fit bg-white">
         {/* Container */}
-        <div className="h-full w-[80%] md:w-[70%] mx-auto flex  lg:flex-row blue flex-col items-center justify-center p-4 py-16 md:py-32 gap-16">
+        <div className="h-full w-[90%] md:w-[70%] mx-auto flex  lg:flex-row blue flex-col items-center justify-center p-4 py-16 md:py-32 gap-16">
           {/* Content */}
-          <div className="w-1/2 lg:w-1/2 shadow-[0px_0px_12px_rgba(59,130,246,0.3)] rounded-2xl relative max-w-[600px] h-fit ">
+          <div className="w-full lg:w-1/2 shadow-[0px_0px_12px_rgba(59,130,246,0.3)] rounded-2xl relative max-w-[600px] h-fit ">
             <Image
               alt="Desk and monitor"
               className="rounded-2xl"
