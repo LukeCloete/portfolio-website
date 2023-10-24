@@ -30,8 +30,15 @@
 
 h2 {
   color: var(--primary);
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.75rem ;
   font-weight: 600;
   letter-spacing: 0.05em;
+}
+
+@media (min-height: 900px) {
+  h2 {
+    font-size: 1.125rem;
+  }
+  
 }
