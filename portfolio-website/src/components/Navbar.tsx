@@ -69,7 +69,7 @@ function Nav() {
       <motion.nav
         variants={{
           Minimal: {
-            width: "60%",
+            width: "75%",
             padding: "0rem",
             justifyContent: "center",
             gap: "3rem",
@@ -92,7 +92,7 @@ function Nav() {
         className="w-full flex items-center"
       >
         {/* Container */}
-        <div className="flex justify-between items-center top-0 h-full w-full px-4 sm:px-12">
+        <div className="flex justify-between items-center top-0 h-full w-full px-4 lg:px-12">
           {/* Logo */}
           <div className="hover:text-blue-500 text-xl font-semibold">
             <Link href="/#home">Luke.dev</Link>
@@ -124,12 +124,12 @@ function Nav() {
               </ul>
             </div>
             {/* Socials and contact info */}
-            <div className="hidden md:flex gap-16 items-end justify-center">
+            <div className="hidden md:flex gap-8 items-center justify-center">
               {/* Contact Info */}
               <button>
                 <Link
                   href=""
-                  className=" before:ease relative h-12 w-40 overflow-hidden shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-blue-500 hover:before:-translate-x-40 rounded-md p-3 px-5 text-sm font-bold bg-blue-500 text-white"
+                  className=" before:ease relative h-12 w-40 overflow-hidden shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-blue-500 hover:before:-translate-x-40 rounded-md p-3 px-3 lg:px-5 text-sm font-bold bg-blue-500 text-white"
                 >
                   Download my CV
                 </Link>
@@ -216,7 +216,7 @@ function Nav() {
                 <div className="overflow-hidden">
                   <motion.div
                     variants={mobileLinkVariations}
-                    initial={{ x: -100 }}
+                    initial={{ x: 100 }}
                     animate={{ x: 0 }}
                   >
                     <Link href="#about" onClick={toggleNav}>
@@ -238,7 +238,7 @@ function Nav() {
                 <div className="overflow-hidden">
                   <motion.div
                     variants={mobileLinkVariations}
-                    initial={{ x: -100 }}
+                    initial={{ x: 100 }}
                     animate={{ x: 0 }}
                   >
                     <Link href="#contact" onClick={toggleNav}>
@@ -264,7 +264,7 @@ function Nav() {
                   <motion.div
                     className="flex text-lg gap-4"
                     variants={mobileLinkVariations}
-                    initial={{ x: -200 }}
+                    initial={{ x: 200 }}
                     animate={{ x: 0 }}
                   >
                     <Link
