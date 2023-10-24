@@ -1,6 +1,6 @@
 .section {
     width: full;
-    height: 65vh;
+    height: fit-content;
     overflow: hidden;
 
   }
