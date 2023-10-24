@@ -13,12 +13,12 @@ export default function Contact() {
       {/* Contact Section */}
       <section id="contact" className={styles.section}>
         {/* Container */}
-        <div className="h-full w-[70%] mx-auto flex flex-col items-start justify-start p-4 py-32">
+        <div className="h-full w-[80%] sm:w-[70%] mx-auto flex flex-col items-start justify-start gap-16 py-24">
           {/* Content */}
-          <div className="flex flex-col items-start justify-start gap-4 h-1/2 w-1/2">
+          <div className="flex flex-col items-start justify-start gap-4 h-1/2 w-full sm:w-1/2">
             <h2>CONTACT</h2>
-            <div className="flex items-center justify-start gap-2">
-              <h3 className="font-bold flex text-2xl w-full items-end">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-start gap-2">
+              <h3 className="font-bold text-2xl w-full">
                 Let's build together!
               </h3>
               <p className=" inline-block text-2xl color-black animate-pulse">
@@ -26,8 +26,8 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="flex w-full h-full gap-4">
-            <div className="flex w-1/3 h-full gap-8">
+          <div className="flex w-full flex-col sm:flex-row h-full gap-16">
+            <div className="flex w-fit h-full gap-8">
               <div className="flex items-center justify-center ">
                 <FontAwesomeIcon
                   icon={faMapLocationDot}
@@ -47,7 +47,7 @@ export default function Contact() {
                 </Link>
               </div>
             </div>
-            <div className="flex w-1/3 h-full gap-8">
+            <div className="flex w-fit h-full gap-8">
               <div className="flex items-center justify-center">
                 <FontAwesomeIcon
                   icon={faEnvelope}
