@@ -73,6 +73,7 @@ export default function Hero() {
                 src={heroPicture}
                 alt="A close-up of myself"
                 className="animate-warp transition-all"
+                loading="eager"
               />
             </div>
           </div>

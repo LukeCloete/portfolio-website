@@ -15,6 +15,7 @@ export default function About() {
               alt="Desk and monitor"
               className="rounded-2xl"
               src={softwareDeveloper}
+              loading="eager"
             />
           </div>
           <div className="flex flex-col items-start justify-center gap-4 h-fit w-full lg:w-1/2">

@@ -35,6 +35,7 @@ export default function Portfolio() {
                     alt="Product Landing Page"
                     placeholder="blur"
                     className=" transition ease-in-out translate-y-[-50px] hover:translate-y-[-73%] duration-10s"
+                    loading="eager"
                   />
                 </Link>
               </div>
@@ -124,7 +125,7 @@ export default function Portfolio() {
                   <Image
                     src={hangmanGamePic}
                     alt="Product Landing Page"
-                    className=""
+                    loading="eager"
                   />
                 </Link>
               </div>
