@@ -216,7 +216,7 @@ function Nav() {
                 <div className="overflow-hidden">
                   <motion.div
                     variants={mobileLinkVariations}
-                    initial={{ x: 100 }}
+                    initial={{ x: -100 }}
                     animate={{ x: 0 }}
                   >
                     <Link href="#about" onClick={toggleNav}>
@@ -238,7 +238,7 @@ function Nav() {
                 <div className="overflow-hidden">
                   <motion.div
                     variants={mobileLinkVariations}
-                    initial={{ x: 100 }}
+                    initial={{ x: -100 }}
                     animate={{ x: 0 }}
                   >
                     <Link href="#contact" onClick={toggleNav}>
