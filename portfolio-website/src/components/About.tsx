@@ -22,7 +22,7 @@ export default function About() {
             <div className="flex flex-col-reverse lg:flex-row items-center lg:items-end justify-center">
               <h3 className="font-bold flex text-xl text md:text-2xl w-full items-end">
                 A dedicated Junior developer
-                <br className="hidden  sm:block" />
+                <br />
                 based in Windhoek, Namibia
               </h3>
               <span className=" text-2xl animate-bounce">📍</span>
