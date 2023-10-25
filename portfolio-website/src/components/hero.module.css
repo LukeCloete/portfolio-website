@@ -1,8 +1,9 @@
 
   .section {
     width: full;
-    height: 150vh;
+    height: fit-content;
     padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   @media (min-width: 901px) {
