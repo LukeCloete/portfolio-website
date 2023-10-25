@@ -29,12 +29,26 @@ const config: Config = {
       },
       animation: {
         'wrench': 'wiggle 1s linear infinite',
+        'warp' : 'warp 10s ease-in-out infinite',
+        'slowSpin': 'slowSpin 5s linear infinite',
+      
       },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-5deg)' },
           '50%': { transform: 'rotate(5deg)' },
+        },
+        warp: {
+          '0%, 100%': { borderRadius: '18% 82% 28% 72% / 25% 40% 60% 75% ' },
+          '50%': { borderRadius: '62% 38% 76% 24% / 71% 68% 32% 29%   ' },
+        },
+        slowSpin: {
+          '0%' :{
+            transform: 'rotate(0deg)'
+          },
+          '100%': { transform: 'rotate(360deg)' },
         }
+      
       },
       transitionDuration: {
         '10s' : '10000ms',
