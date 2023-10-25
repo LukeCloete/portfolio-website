@@ -124,7 +124,7 @@ export default function Portfolio() {
                 >
                   <Image
                     src={hangmanGamePic}
-                    alt="Product Landing Page"
+                    alt="Java hangman game"
                     loading="eager"
                   />
                 </Link>
