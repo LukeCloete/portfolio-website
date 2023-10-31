@@ -11,6 +11,11 @@ export default function Home() {
     <>
       <Head>
         <title>Luke Cloete | Front-end Developer</title>
+        <meta
+          property="og:title"
+          content="Luke Cloete | Your Next Web Developer"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -20,12 +25,14 @@ export default function Home() {
           property="og:image"
           content="https://lukecloeteportfolio.netlify.app/api/og"
         />
+        <meta property="og:url" content="https://lukecloete.com" />
 
         <meta
           name="description"
-          content="Welcome to my portfolio! Explore my collection of my projects showcasing my expertise and get in touch.
-            With a passion for clean code and innovative solutions, I strive to create seamless user experiences that blend functionality with stunning designs."
+          content="Front-end Web developer with experience building performant websites and web applications. Expertise in React/Next.js. Competent in UX/UI design. "
         />
+        <meta property="og:type" content="website" />
+
         <meta
           name="keywords"
           content="Namibian Developer, Front-end developer, software developer, software engineer, Luke Cloete, Web developer, Namibian web developer"
