@@ -36,7 +36,7 @@ export default function Hero() {
                 Developer based in Windhoek, Namibia.
               </p>
 
-              <div className="flex flex-col-reverse sm:flex-row gap-8">
+              <div className="flex flex-col-reverse sm:flex-row-reverse gap-8">
                 <div className="flex gap-2 items-end justify-center md:justify-start">
                   <Link
                     href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
@@ -89,13 +89,13 @@ export default function Hero() {
                   icon={faHtml5}
                   height={50}
                   size="3x"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
                 <FontAwesomeIcon
                   icon={faCss3}
                   height={50}
                   size="3x"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
               </li>
               <li className="flex items-center justify-center gap-2">
@@ -103,17 +103,17 @@ export default function Hero() {
                   icon={faJava}
                   height={50}
                   size="3x"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
                 <FontAwesomeIcon
                   icon={faJs}
                   size="3x"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
                 <Image
                   height={42}
                   alt="Typescript"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                   src={typescriptIcon}
                 />
               </li>
@@ -122,19 +122,19 @@ export default function Hero() {
                   icon={faReact}
                   height={45}
                   size="3x"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
                 <Image
                   height={45}
                   alt="Next.js"
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                   src={nextjsIcon}
                 />
                 <Image
                   alt="Tailwind CSS"
                   height={45}
                   src={tailwindIcon}
-                  className="hover:scale-125 ease-in-out transition duration-300"
+                  className="hover:-translate-y-2 ease-in-out transition duration-300"
                 />
               </li>
             </ul>
