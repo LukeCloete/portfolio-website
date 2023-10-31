@@ -85,57 +85,81 @@ export default function Hero() {
 
             <ul className="flex flex-col md:flex-row items-center justify-center gap-6">
               <li className="flex items-center justify-center gap-2">
-                <FontAwesomeIcon
-                  icon={faHtml5}
-                  height={50}
-                  size="3x"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
-                <FontAwesomeIcon
-                  icon={faCss3}
-                  height={50}
-                  size="3x"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
+                <div className="flex flex-col items-center justify-center">
+                  <FontAwesomeIcon
+                    icon={faHtml5}
+                    height={50}
+                    size="3x"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  HTML
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <FontAwesomeIcon
+                    icon={faCss3}
+                    height={50}
+                    size="3x"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  CSS
+                </div>
               </li>
               <li className="flex items-center justify-center gap-2">
-                <FontAwesomeIcon
-                  icon={faJava}
-                  height={50}
-                  size="3x"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
-                <FontAwesomeIcon
-                  icon={faJs}
-                  size="3x"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
-                <Image
-                  height={42}
-                  alt="Typescript"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                  src={typescriptIcon}
-                />
+                <div className="flex flex-col items-center justify-center">
+                  <FontAwesomeIcon
+                    icon={faJava}
+                    height={50}
+                    size="3x"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  Java
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <FontAwesomeIcon
+                    icon={faJs}
+                    size="3x"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  Javascript
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Image
+                    height={42}
+                    alt="Typescript"
+                    className="hover:-translate-y-2 mb-1 ease-in-out transition duration-300"
+                    src={typescriptIcon}
+                  />
+                  Typescript
+                </div>
               </li>
               <li className="flex items-center justify-center gap-2">
-                <FontAwesomeIcon
-                  icon={faReact}
-                  height={45}
-                  size="3x"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
-                <Image
-                  height={45}
-                  alt="Next.js"
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                  src={nextjsIcon}
-                />
-                <Image
-                  alt="Tailwind CSS"
-                  height={45}
-                  src={tailwindIcon}
-                  className="hover:-translate-y-2 ease-in-out transition duration-300"
-                />
+                <div className="flex flex-col items-center justify-center">
+                  <FontAwesomeIcon
+                    icon={faReact}
+                    height={45}
+                    size="3x"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  React
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Image
+                    height={45}
+                    alt="Next.js"
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                    src={nextjsIcon}
+                  />
+                  Next.js
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Image
+                    alt="Tailwind CSS"
+                    height={45}
+                    src={tailwindIcon}
+                    className="hover:-translate-y-2 ease-in-out transition duration-300"
+                  />
+                  Tailwind CSS
+                </div>
               </li>
             </ul>
           </div>
