@@ -16,6 +16,10 @@ export default function Home() {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
+        <meta
+          property="og:image"
+          content="https://lukecloeteportfolio.netlify.app/api/og"
+        />
 
         <meta
           name="description"
