@@ -1,18 +1,12 @@
-import { ImageResponse } from "@vercel/og";
-import { NextApiRequest, NextApiHandler } from "next";
-import ogPicture from "../../../public/temp-hero-picture.jpg";
+import { ImageResponse } from "next/server";
 
 export const config = {
   runtime: "edge",
 };
 
-export default async function (request: NextApiRequest) {
+export default async function () {
   const fontData = await fetch(
     new URL("../../../assets/BebasNeue-Regular.ttf", import.meta.url)
-  ).then((res) => res.arrayBuffer());
-
-  const imageData = await fetch(
-    new URL("../../../public/temp-hero-picture.jpg", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
@@ -52,9 +46,10 @@ export default async function (request: NextApiRequest) {
           >
             <h1
               style={{
-                fontSize: "286px",
+                fontSize: "290px",
                 position: "absolute",
                 top: "-6rem",
+                left: "-8px",
                 fontFamily: "Bebas",
               }}
             >
@@ -129,7 +124,9 @@ export default async function (request: NextApiRequest) {
               <img
                 width="300"
                 height="300"
-                src={imageData}
+                src={
+                  "https://avatars.githubusercontent.com/u/114778021?s=400&u=155c1508af5e0588a520dd5e48b150b31d6e5362&v=4"
+                }
                 style={{
                   top: "4rem",
                   borderRadius: "62% 38% 76% 24% / 71% 68% 32% 29%",
