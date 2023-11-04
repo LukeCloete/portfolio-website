@@ -20,7 +20,7 @@ It was nothing short of a challenge, however, especially when it came to hosting
 
 ## Screenshot
 
-![lukecloete.com](https://github.com/LukeCloete/Product-Landing-Page/assets/114778021/ae746be3-8a71-40ff-8b3c-b7e4a6401d5a)
+![lukecloete.com](https://github.com/LukeCloete/portfolio-website/assets/114778021/cf83e3fd-abf5-44b5-96c5-402821cc9a4b)
 
 ## Technologies
 
