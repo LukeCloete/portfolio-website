@@ -61,7 +61,12 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center justify-center">
                   <button className=" text-base p-2 rounded-md transition font-semibold ease-in-out duration-300 bg-black text-white hover:bg-transparent hover:border-black hover:border hover:text-black">
-                    Download my CV
+                    <Link
+                      href="/Luke_Cloete_CV.pdf"
+                      download="Luke_Cloete_CV.pdf"
+                    >
+                      Download my CV
+                    </Link>
                   </button>
                 </div>
               </div>

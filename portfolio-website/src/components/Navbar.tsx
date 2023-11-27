@@ -128,7 +128,8 @@ function Nav() {
               {/* Contact Info */}
               <button>
                 <Link
-                  href=""
+                  href="/Luke_Cloete_CV.pdf"
+                  download="Luke_Cloete_CV.pdf"
                   className=" before:ease relative h-12 w-40 overflow-hidden shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-blue-500 hover:before:-translate-x-40 rounded-md p-3 px-3 lg:px-5 text-sm font-bold bg-blue-500 text-white"
                 >
                   Download my CV
@@ -253,7 +254,8 @@ function Nav() {
                     animate={{ x: 0 }}
                   >
                     <Link
-                      href=""
+                      href="/Luke_Cloete_CV.pdf"
+                      download="Luke_Cloete_CV.pdf"
                       className="  shadow-2xl w-40 h-fit rounded-xl p-3 px-5 text-sm font-bold bg-blue-500 text-white"
                     >
                       Download my CV
