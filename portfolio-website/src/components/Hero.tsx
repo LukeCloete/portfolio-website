@@ -63,6 +63,7 @@ export default function Hero() {
                   <button className=" text-base p-2 rounded-md transition font-semibold ease-in-out duration-300 bg-black text-white hover:bg-transparent hover:border-black hover:border hover:text-black">
                     <Link
                       href="/Luke_Cloete_CV.pdf"
+                      target="blank_"
                       download="Luke_Cloete_CV.pdf"
                     >
                       Download my CV
