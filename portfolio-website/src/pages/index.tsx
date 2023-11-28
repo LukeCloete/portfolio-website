@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Luke Cloete | Front-end Developer</title>
+        <title>Luke Cloete | Portfolio</title>
         <meta property="og:title" content="Luke Cloete | Your Next Developer" />
 
         <link
