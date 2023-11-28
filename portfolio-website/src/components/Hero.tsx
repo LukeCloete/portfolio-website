@@ -16,7 +16,7 @@ import Link from "next/link";
 import tailwindIcon from "../../public/tailwindcss.svg";
 import nextjsIcon from "../../public/next-js.svg";
 import typescriptIcon from "../../public/typescript.svg";
-import heroPicture from "../../public/software-engineer-namibia.jpg";
+import heroPicture from "../../public/student-developer.jpeg";
 
 export default function Hero() {
   return (
