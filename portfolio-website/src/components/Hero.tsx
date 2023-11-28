@@ -16,7 +16,7 @@ import Link from "next/link";
 import tailwindIcon from "../../public/tailwindcss.svg";
 import nextjsIcon from "../../public/next-js.svg";
 import typescriptIcon from "../../public/typescript.svg";
-import heroPicture from "../../public/temp-hero-picture.jpg";
+import heroPicture from "../../public/software-engineer-namibia.jpg";
 
 export default function Hero() {
   return (
@@ -29,11 +29,16 @@ export default function Hero() {
             {/* Info */}
             <div className="flex w-full h-fit md:h-full flex-col items-center md:items-start justify-start md:justify-center">
               <h1 className="text-center md:text-left font-bold h-fit py-4 leading-tight text-4xl sm:text-[55px] tracking-tight w-full flex-shrink-0">
-                The Front-end Engineer.
+                Your
+                <span className="ml-4 from-[rgba(47,123,255,1)] to-[#ed77aa] text-transparent bg-clip-text bg-gradient-to-r">
+                  Next
+                </span>
+                <br />
+                Software Engineer.
               </h1>
               <p className=" text-center md:text-left  text-lg sm:text-lg tracking-relaxed mb-8 flex-shrink-0">
-                Hi, I&apos;m Luke Cloete, a passionate Front-end Software
-                Developer based in Windhoek, Namibia.
+                Hi, I&apos;m Luke Cloete, a passionate software developer based
+                in Windhoek, Namibia.
               </p>
 
               <div className="flex flex-col-reverse sm:flex-row-reverse gap-8">

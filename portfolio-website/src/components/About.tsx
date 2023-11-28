@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import softwareDeveloper from "../../public/software-developer-namibia.jpg";
+import softwareDeveloper from "../../public/student-developer-namibia.jpg";
 
 export default function About() {
   return (
@@ -22,7 +22,7 @@ export default function About() {
             <h2>ABOUT ME</h2>
             <div className="flex flex-col-reverse lg:flex-row items-center lg:items-end justify-center">
               <h3 className="font-bold flex text-xl text md:text-2xl w-full items-end">
-                A dedicated Junior developer
+                A dedicated developer
                 <br />
                 based in Windhoek, Namibia
               </h3>
@@ -30,14 +30,14 @@ export default function About() {
             </div>
 
             <p className=" text-base md:text-lg text-slate-500">
-              As a Junior Developer, I possess a good background of skills in
+              As a lifelong learner, I possess a good background of skills in
               HTML, CSS, Java, JavaScript, Typescript, React and Tailwind.
               Currently, I am refining my craft in designing and maintaining
               responsive websites that offer a smooth user experience. My
               expertise lies in utilizing cutting-edge development tools and
               techniques to craft engaging interfaces through writing clean and
               optimized code. I am always looking to expand my skillset and
-              close the gap between my front-end and back-end development.
+              bridge the gap between my front-end and back-end development.
             </p>
           </div>
         </div>

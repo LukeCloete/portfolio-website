@@ -15,7 +15,7 @@ export default function Portfolio() {
       <section id="portfolio" className="w-full h-fit bg-slate-100 ">
         {/* Container */}
         <div className="flex flex-col h-full w-full md:w-[70%] mx-auto p-4 py-20 pb-0 sm:pb-20 justify-start items-start ">
-          <div className="flex w-[90%] mx-auto flex-col justify-start items-start gap-4 mb-16">
+          <div className="flex w-[100%] mx-auto flex-col justify-start items-start gap-4 mb-16">
             <h2>Portfolio</h2>
             <div className="flex flex-col-reverse md:flex-row items-center justify-start gap-2">
               <h3 className="font-bold flex text-2xl w-full items-end">
@@ -34,7 +34,7 @@ export default function Portfolio() {
                     src={landingPagePic}
                     alt="Product Landing Page"
                     placeholder="blur"
-                    className=" transition ease-in-out translate-y-[-50px] hover:translate-y-[-73%] duration-10s"
+                    className=" transition ease-in-out translate-y-[-50px] hover:translate-y-[-55%] md:hover:translate-y-[-73%] duration-10s"
                     loading="eager"
                   />
                 </Link>

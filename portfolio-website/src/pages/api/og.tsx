@@ -88,17 +88,19 @@ export default async function () {
                   fontFamily: "Bebas",
                 }}
               >
+                Your
                 <span
                   style={{
-                    marginRight: "1rem",
+                    marginRight: "0.5rem",
+                    marginLeft: "0.5rem",
                     background:
                       "linear-gradient(90deg, rgba(47,123,255,1) 0%, rgba(238,174,202,1) 100%)",
                     color: "transparent",
                     backgroundClip: "text",
                   }}
                 >
-                  Front-end
-                </span>{" "}
+                  Next
+                </span>
                 Software Engineer
               </h2>
               <p
@@ -125,7 +127,7 @@ export default async function () {
                 width="300"
                 height="300"
                 src={
-                  "https://avatars.githubusercontent.com/u/114778021?s=400&u=155c1508af5e0588a520dd5e48b150b31d6e5362&v=4"
+                  "https://media.licdn.com/dms/image/D4D03AQF5w5pCb_Im-Q/profile-displayphoto-shrink_800_800/0/1701092599995?e=1706745600&v=beta&t=sy9sJ4MiyT4u34q54SzWmzFd6_gazPVyJ1kuKxJeEHc"
                 }
                 style={{
                   top: "4rem",
