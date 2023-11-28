@@ -11,10 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Luke Cloete | Front-end Developer</title>
-        <meta
-          property="og:title"
-          content="Luke Cloete | Your Next Web Developer"
-        />
+        <meta property="og:title" content="Luke Cloete | Your Next Developer" />
 
         <link
           rel="apple-touch-icon"
@@ -29,7 +26,7 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Front-end Web developer with experience building performant websites and web applications. Expertise in React/Next.js. Competent in UX/UI design. "
+          content="Developer with experience building performant websites and web applications. Expertise in React/Next.js. Competent in UX/UI design. "
         />
         <meta property="og:type" content="website" />
 
@@ -40,7 +37,7 @@ export default function Home() {
         <meta name="author" content="Luke Cloete, cloeteluke@gmail.com" />
         <meta
           name="My personal portfolio site."
-          content="Front-end developer portfolio"
+          content="Developer portfolio"
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
