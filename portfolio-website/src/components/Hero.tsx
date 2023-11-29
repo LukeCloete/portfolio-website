@@ -16,7 +16,7 @@ import Link from "next/link";
 import tailwindIcon from "../../public/tailwindcss.svg";
 import nextjsIcon from "../../public/next-js.svg";
 import typescriptIcon from "../../public/typescript.svg";
-import heroPicture from "../../public/student-developer.jpeg";
+import heroPicture from "../../public/student-developer.webp";
 
 export default function Hero() {
   return (
@@ -47,6 +47,7 @@ export default function Hero() {
                     href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
                     target="blank_"
                     rel="noopener noreferrer"
+                    aria-label="My LinkedIn Profile"
                   >
                     <FontAwesomeIcon
                       icon={faLinkedin}
@@ -57,6 +58,7 @@ export default function Hero() {
                     href="https://github.com/LukeCloete"
                     target="blank_"
                     rel="noopener noreferrer"
+                    aria-label="My GitHub Profile"
                   >
                     <FontAwesomeIcon
                       icon={faGithub}

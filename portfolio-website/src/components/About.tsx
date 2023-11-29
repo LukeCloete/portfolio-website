@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import softwareDeveloper from "../../public/student-developer-namibia.jpg";
+import softwareDeveloper from "../../public/student-developer-namibia.webp";
 
 export default function About() {
   return (

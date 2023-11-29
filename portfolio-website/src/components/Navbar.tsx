@@ -142,13 +142,18 @@ function Nav() {
                 <Link
                   href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
                   target="blank_"
+                  aria-label="My LinkedIn Profile"
                 >
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="text-blue-500 hover:text-black"
                   />
                 </Link>
-                <Link href="https://github.com/LukeCloete" target="blank_">
+                <Link
+                  href="https://github.com/LukeCloete"
+                  target="blank_"
+                  aria-label="My GitHub Profile"
+                >
                   <FontAwesomeIcon
                     icon={faGithub}
                     className="text-blue-500 hover:text-black"
@@ -176,7 +181,7 @@ function Nav() {
                     Luke.dev
                   </Link>
                 </div>
-                <button onClick={toggleNav}>
+                <button aria-label="Open Menu" onClick={toggleNav}>
                   <FontAwesomeIcon icon={faXmark} className="text-black" />
                 </button>
               </div>
@@ -274,6 +279,8 @@ function Nav() {
                     <Link
                       href="https://www.linkedin.com/in/luke-cloete-2b288b231/"
                       target="blank_"
+                      aria-label="My LinkedIn Profile"
+                      rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
                         icon={faLinkedin}
@@ -281,7 +288,12 @@ function Nav() {
                         className="text-blue-500"
                       />
                     </Link>
-                    <Link href="https://github.com/LukeCloete" target="blank_">
+                    <Link
+                      href="https://github.com/LukeCloete"
+                      target="blank_"
+                      aria-label="My GitHub Profile"
+                      rel="noopener noreferrer"
+                    >
                       <FontAwesomeIcon
                         icon={faGithub}
                         size="2x"
