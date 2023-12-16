@@ -26,7 +26,7 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Developer with experience building performant websites and web applications. Expertise in React/Next.js. Competent in UX/UI design. "
+          content="Welcome to my developer Portfolio! Have a look at my collection of projects I have built as I progress through my lifelong journey of learning."
         />
         <meta property="og:type" content="website" />
 
